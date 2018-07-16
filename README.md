@@ -25,3 +25,4 @@ static{
 	System.loadLibrary(Core.NATIVE_LIBRARY_NAME); // load opencv_java
 }
 ```
+![title jar contants](https://github.com/chegel/OpenCV-3.4.0-windows-x64/blob/master/images/jar.jpg)  
