@@ -34,10 +34,9 @@ Code sample
 ```java
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
-import org.opencv.core.Rect;
 import org.opencv.imgcodecs.Imgcodecs;
 ...
-ImageEntity imageEntity = new ImageEntity();
 Mat rawFaceImage = Imgcodecs.imdecode(new MatOfByte(rawImage), Imgcodecs.CV_LOAD_IMAGE_COLOR);
-
+...
+Imgproc.cvtColor(frame, grayFrame, Imgproc.COLOR_BGR2GRAY);
 ```
