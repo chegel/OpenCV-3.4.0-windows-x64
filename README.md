@@ -1,6 +1,6 @@
 # OpenCV
 
-Add DLLs to Path
+Add DLLs to Path  
 ![title Windows Path](https://github.com/chegel/OpenCV-3.4.0-windows-x64/blob/master/images/Windows_Path.jpg)  
 Add jar file to project lib folder  
 Add Native Library Locations folder with DLLs  
