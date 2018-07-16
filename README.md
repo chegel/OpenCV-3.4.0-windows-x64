@@ -28,3 +28,16 @@ static{
 
 opencv-340.jar contents  
 ![title jar contants](https://github.com/chegel/OpenCV-3.4.0-windows-x64/blob/master/images/jar.jpg)  
+
+Code sample  
+
+```java
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfByte;
+import org.opencv.core.Rect;
+import org.opencv.imgcodecs.Imgcodecs;
+...
+ImageEntity imageEntity = new ImageEntity();
+Mat rawFaceImage = Imgcodecs.imdecode(new MatOfByte(rawImage), Imgcodecs.CV_LOAD_IMAGE_COLOR);
+
+```
