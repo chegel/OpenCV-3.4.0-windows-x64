@@ -1,4 +1,4 @@
-# OpenCV
+# OpenCV 3.4.0 Java project configuration on Windows with Intellij IDEA
 
 Add DLLs to Path  
 ![title Windows Path](https://github.com/chegel/OpenCV-3.4.0-windows-x64/blob/master/images/Windows_Path.jpg)  
