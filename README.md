@@ -8,6 +8,7 @@ Add Native Library Locations folder with DLLs
 
 Maven  
 
+```
 <dependency>
 	<groupId>org.opencv</groupId>
 	<artifactId>opencv</artifactId>
@@ -15,10 +16,12 @@ Maven
 	<scope>system</scope>
 	<systemPath>${project.basedir}/lib/opencv-340.jar</systemPath>
 </dependency>
+```
 
 In Java class load native library  
 
+```
 static{
 	System.loadLibrary(Core.NATIVE_LIBRARY_NAME); // load opencv_java
 }
-	
+```
